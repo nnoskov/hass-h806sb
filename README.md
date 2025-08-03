@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/nnoskov/hass-h806sb.svg)](https://github.com/nnoskov/hass-h806sb/releases)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/nnoskov/hass-h806sb)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nnoskov/hass-h806sb)
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-yellow)](https://buymeacoffee.com/nnoskov)
 
