@@ -1,0 +1,23 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create ZIP
+        run: zip -r h806sb.zip /custom_components/h806sb
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: h806sb.zip
