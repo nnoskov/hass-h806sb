@@ -22,7 +22,7 @@ Control your H806SB LED strip controllers directly from Home Assistant via WiFi.
 1. Ensure you have [HACS](https://hacs.xyz) installed in your Home Assistant
 2. Go to **HACS** → **Integrations**
 3. Click the 3-dot menu (⋮) in top right corner → **Custom repositories**
-4. Add repository URL: https://github.com/nnoskov/hass-h806sb
+4. Add repository URL: `https://github.com/nnoskov/hass-h806sb`
 5. Select category: **Integration**
 6. Click **ADD**
 7. Search for "H806SB" in HACS and install it
