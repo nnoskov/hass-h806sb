@@ -1,0 +1,23 @@
+{
+    "config": {
+        "abort": {
+            "no_devices_found": "No devices found on the network",
+            "already_configured": "Device has already been configured.",
+            "single_instance_allowed": "Already configured. Only a single configuration possible."
+        },
+        "step": {
+            "choice": {
+                "title": "Select a choice",
+                "discovery": "Discovery EN",
+                "data": {
+                    "discovery_auto": "Automatic Discovery EN",
+                    "discovery_manual": "Manual setup EN"
+                }
+            },
+            "confirm": {
+                "title": "Confirm device",
+                "description": "Do you want to add the device with the following parameters?\nName: {name}\nIP: {ip}\nSerial: {serial}"
+            }
+        }
+    }
+}

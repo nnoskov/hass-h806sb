@@ -1,0 +1,17 @@
+{
+  "domain": "h806sb",
+  "name": "H806SB Controller",
+  "icon": "icon.svg",
+  "version": "0.1.0",
+  "documentation": "https://github.com/nnoskov/h806sb-ha",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@nnoskov"
+  ],
+  "issue_tracker": "https://github.com/nnoskov/h806sb-ha/issues",
+  "config_flow": true,
+  "iot_class": "local_pulling",
+  "ssdp": [],
+  "zeroconf": []
+}

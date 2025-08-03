@@ -1,0 +1,7 @@
+{
+    "name": "H806SB Led Controller",
+    "content_in_root": false,
+    "filename": "h806sb",
+    "homeassistant": "2025.7.4",
+    "render_readme": true
+}

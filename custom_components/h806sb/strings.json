@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "choice": {
+        "title": "[%key:common::config_flow::step::choice::title%]",
+        "description": "[%key:common::config_flow::step::choice::description%]",
+        "discovery": "[%key:common::config_flow::step::choice::discovery%]",
+        "data": {
+          "discovery_auto": "[%key:common::config_flow::data::discovery_auto%]",
+          "discovery_manual": "[%key:common::config_flow::data::discovery_manual%]"
+        }
+      },
+      "confirm": {
+        "title": "[%key:common::config_flow::step::confirm::title%]",
+        "description": "[%key:common::config_flow::step::confirm::description%]"
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]",
+      "single_instance_allowed": "[%key:common::config_flow::abort::single_instance_allowed%]",
+      "no_devices_found": "[%key:common::config_flow::abort::no_devices_found%]"
+    }
+  },
+  "options": {
+    "step": {}
+  }
+}
