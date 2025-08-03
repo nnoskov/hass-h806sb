@@ -15,9 +15,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Create ZIP
-        run: zip -r h806sb.zip /custom_components/h806sb
+        run: zip -r h806sb.zip custom_components/h806sb
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
           files: h806sb.zip
+          name: "Release ${{ github.ref_name }}"
