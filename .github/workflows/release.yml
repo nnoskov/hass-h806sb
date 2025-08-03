@@ -15,7 +15,13 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Create ZIP
-        run: zip -rj h806sb.zip custom_components/h806sb
+        run: |
+            mkdir -p temp_dir
+            cp -r custom_components/h806sb/* temp_dir/
+            cd temp_dir
+            zip -r ../h806sb.zip .
+            cd ..
+            rm -rf temp_dir
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
